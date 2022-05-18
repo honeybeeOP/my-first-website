@@ -1,0 +1,163 @@
+/* overall styling */
+*{
+    margin: 0px;
+    padding: 0;
+    text-decoration: none;
+}
+figure{
+    
+    display: flex;
+    padding-left: 30px;
+    height: 300px;
+    width: 300px;
+    padding-right: 30px;
+}
+
+/* h1 styling */
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+    font-weight: 700;
+    color: rgb(7, 4, 22);
+    padding-left: 20px;
+}
+
+/* h2 styling */
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: violet;
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 30px;
+}
+h4{
+    padding-left: 20px;
+    background-color: limegreen;
+}
+h5{
+    background-color: mediumspringgreen;
+}
+
+/* paragraph styling */
+p{
+    background-color: lightgrey;
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+/* footer styling */
+footer{
+ background-color:rgb(175, 151, 151);
+}
+
+footer .contact{
+    font-size: 16px;
+    font-family: serif;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-left: 40%;
+    padding-bottom: 30px;
+}
+footer .contact .icon .facebook{
+    padding-right: 100px;
+}
+
+
+
+/* navbar styling */
+.navbar{
+    padding: 30px 0;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar .ABC {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: rgb(0, 119, 16);
+    font-size: 60px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: rgb(214, 10, 10);
+}
+.navbar .menu li {
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.6s ease;
+}
+.navbar .menu li a:hover{
+    color: rgb(1, 179, 60);
+}
+.ABC .menu .indicator{
+    color: darkorange;
+}
+
+/* home section styling */
+.home{
+background-color: rgb(30, 31, 2);
+height: 543px;
+font-family: 'Times New Roman', Times, serif;
+}
+.home .ABC{
+    padding-top: 120px;
+    margin: auto 35px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+    color: white;
+    font-weight: 400;
+}
+.home .home-content .text-2{
+    color: white;
+    font-size: 75px;
+    font-weight: 600;  
+}
+.home .home-content .text-3{
+    color: white;
+    font-size: 40px;
+}
+.home .home-content .text-3 span{
+    color: red;
+    font-weight: 500;
+}
+
+
+/* cv section styling */
+.cv{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    display: flex;
+}
+.cv0{
+    display: flex;
+}
+.cv1{
+    display: flex ;
+}
+.cv2{
+    padding-left: 65px;
+}
+
+
+/* form styling */
+form{
+  padding-left: 30px;
+}
+
+div.cv0{
+    display: flex;
+}
+ 
+
+
